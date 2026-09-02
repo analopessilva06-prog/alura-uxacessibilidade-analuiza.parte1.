@@ -1,0 +1,90 @@
+    /* Configurações Globais de Acessibilidade */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px; /* Fonte ampliada para facilitar a leitura */
+  line-height: 1.6;
+  background-color: #f4f7f6;
+  color: #1a1a1a; /* Alto contraste com o fundo */
+  padding: 15px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #005f73;
+  color: #ffffff;
+  padding: 25px 15px;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+/* Cartões de Dicas */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 3px solid #005f73; /* Borda espessa para fácil visualização */
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  color: #9b2226; /* Cor escura e chamativa para destaques */
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #2b2d42;
+}
+
+/* Botão Grande de Ação */
+.div-botao {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.btn-ajuda {
+  background-color: #ae2012;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 18px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 400px;
+}
+
+.btn-ajuda:hover {
+  background-color: #9b2226;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #4a4a4a;
+}
