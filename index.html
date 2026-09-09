@@ -14,25 +14,65 @@
   </header>
 
   <main>
-    <section class="card">
+    <!-- Card 1 -->
+    <div class="card" onclick="document.getElementById('modal1').showModal()">
+      <h2>1. Mantenha-se Hidratado</h2>
+      <p>Mesmo sem sentir sede, beba água ao longo do dia...</p>
+      <span class="dica-clique">Clique para ver mais</span>
+    </div>
+
+    <dialog id="modal1" class="modal">
+      <form method="dialog">
+        <button class="btn-fechar" aria-label="Fechar">&times;</button>
+      </form>
       <h2>1. Mantenha-se Hidratado</h2>
       <p>Mesmo sem sentir sede, beba água ao longo do dia. Sucos naturais e chás sem açúcar também são ótimas opções.</p>
-    </section>
+    </dialog>
 
-    <section class="card">
+    <!-- Card 2 -->
+    <div class="card" onclick="document.getElementById('modal2').showModal()">
+      <h2>2. Cores no Prato</h2>
+      <p>Monte pratos coloridos com legumes e verduras...</p>
+      <span class="dica-clique">Clique para ver mais</span>
+    </div>
+
+    <dialog id="modal2" class="modal">
+      <form method="dialog">
+        <button class="btn-fechar" aria-label="Fechar">&times;</button>
+      </form>
       <h2>2. Cores no Prato</h2>
       <p>Monte pratos coloridos com legumes e verduras. Quanto mais colorido, mais vitaminas e nutrientes você consome.</p>
-    </section>
+    </dialog>
 
-    <section class="card">
+    <!-- Card 3 -->
+    <div class="card" onclick="document.getElementById('modal3').showModal()">
+      <h2>3. Fortaleça os Ossos</h2>
+      <p>Consuma alimentos ricos em cálcio...</p>
+      <span class="dica-clique">Clique para ver mais</span>
+    </div>
+
+    <dialog id="modal3" class="modal">
+      <form method="dialog">
+        <button class="btn-fechar" aria-label="Fechar">&times;</button>
+      </form>
       <h2>3. Fortaleça os Ossos</h2>
       <p>Consuma alimentos ricos em cálcio, como leite, queijos amarelos, iogurte natural e folhas verde-escuras.</p>
-    </section>
+    </dialog>
 
-    <section class="card">
+    <!-- Card 4 -->
+    <div class="card" onclick="document.getElementById('modal4').showModal()">
+      <h2>4. Prefira Alimentos Naturais</h2>
+      <p>Evite produtos industrializados e muito salgados...</p>
+      <span class="dica-clique">Clique para ver mais</span>
+    </div>
+
+    <dialog id="modal4" class="modal">
+      <form method="dialog">
+        <button class="btn-fechar" aria-label="Fechar">&times;</button>
+      </form>
       <h2>4. Prefira Alimentos Naturais</h2>
       <p>Evite produtos industrializados e muito salgados. Dê preferência a temperos naturais como alho, cebola, salsa e orégano.</p>
-    </section>
+    </dialog>
 
     <div class="div-botao">
       <button type="button" class="btn-ajuda" onclick="alert('Ligue para seu posto de saúde ou consulte seu médico para orientações personalizadas.')">Precisa de Ajuda?</button>
